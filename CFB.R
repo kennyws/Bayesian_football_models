@@ -29,8 +29,8 @@ wp_cutoff <- 0.001
 min_team_games <- 5
 
 # Stan settings. Start with 2 chains and 1000 iterations to test the script.
-n_chains <- 2
-n_iter <- 1000
+n_chains <- 4
+n_iter <- 2000
 
 # Matchup simulation settings. A few game-noise simulations per posterior
 # draw are sufficient; posterior uncertainty is already represented by draws.
